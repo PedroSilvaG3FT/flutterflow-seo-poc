@@ -9,6 +9,13 @@ import { Component, Renderer2, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
+  public links: string[] = [
+    'https://www.google.com/',
+    'https://flutterflow-seo-poc.vercel.app',
+    'https://flutterflow-seo-poc.vercel.app/initial',
+    'https://flutterflow-seo-poc.vercel.app/home/SP/Suzano',
+  ];
+
   constructor(
     private meta: Meta,
     private location: Location,

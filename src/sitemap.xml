@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cliconsulta-poc-796981d33f9c.herokuapp.com/</loc>
+    <loc>https://flutterflow-seo-poc.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-    <url>
-    <loc>https://cliconsulta-poc-796981d33f9c.herokuapp.com/home</loc>
+  <url>
+    <loc>https://flutterflow-seo-poc.vercel.app/home</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

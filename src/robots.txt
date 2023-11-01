@@ -5,4 +5,4 @@ User-agent: *
 User-agent: *
 Allow: /
 
-Sitemap: https://cliconsulta-poc-796981d33f9c.herokuapp.com/sitemap.xml
+Sitemap: https://flutterflow-seo-poc.vercel.app//sitemap.xml

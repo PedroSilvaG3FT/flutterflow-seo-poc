@@ -1,13 +1,103 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>FlutterflowSeoPoc</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+
+    <base href="/" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="SeoPOC" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Open Graph & SEO tags -->
+    <meta name="robots" content="all" />
+    <meta name="author" content="Cliconsulta" />
+    <meta property="og:type" content="website" />
+    <meta name="publisher" content="Cliconsulta" />
+    <link rel="canonical" href="http://localhost:4500/home/sp/suzano" />
+    <meta property="og:url" content="http://localhost:4500/home/sp/suzano" />
+    <meta
+      name="keywords"
+      content="agendamento médico, consulta médica, clínica médica, marcação de consulta, saúde, médico"
+    />
+
+    <meta
+      property="og:title"
+      content="SEO Poc - Agendamento Médico Online Simplificado"
+    />
+    <meta
+      property="og:description"
+      content="Agende consultas médicas online de forma rápida com o SEO Poc. Encontre médicos próximos e marque sua consulta em minutos."
+    />
+    <meta
+      property="og:image"
+      content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png"
+    />
+    <meta
+      name="twitter:title"
+      content="SEO Poc - Agendamento Médico Online Simplificado"
+    />
+    <meta
+      name="twitter:description"
+      content="Agende consultas médicas online de forma rápida com o SEO Poc. Encontre médicos próximos e marque sua consulta em minutos."
+    />
+    <meta
+      name="twitter:image"
+      content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>SEO Poc - Agendamento Médico Online Simplificado</title>
+    <meta
+      name="description"
+      content="Agende consultas médicas online de forma rápida com o SEO Poc. Encontre médicos próximos e marque sua consulta em minutos."
+    />
+
+    <!-- Status Bar color in Safari browser (iOS) and PWA -->
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#f1f4f8"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#1d2428"
+    />
+
+    <link rel="manifest" href="manifest.json" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <script src="/assets/build/web/flutter.js" defer></script>
+  </head>
+
+  <body>
+    <app-root></app-root>
+
+    <script>
+      window.addEventListener("load", function (ev) {
+        _flutter.loader.loadEntrypoint({
+          entrypointUrl: "/assets/build/web/main.dart.js",
+          serviceWorker: {
+            serviceWorkerUrl: "flutter_service_worker.js?v=",
+            serviceWorkerVersion: 1016097271,
+          },
+          onEntrypointLoaded: async function (engineInitializer) {
+            let appRunner = await engineInitializer.initializeEngine();
+            await appRunner.runApp();
+          },
+        });
+      });
+    </script>
+  </body>
 </html>

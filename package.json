@@ -3,15 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve",
     "test": "ng test",
     "build": "ng build",
-    "start": "node server.js",
-    "watch": "ng build --watch --configuration development",
-    "start-hml": "node server.js",
-    "heroku:publish": "git push heroku master",
-    "heroku:add-origin": "git remote add heroku https://git.heroku.com/challenge-ui.git ",
-    "heroku-postbuild": "ng build --prod"
+    "start": "ng serve",
+    "watch": "ng build --watch --configuration development"
   },
   "engines": {
     "node": "16.14.0",
